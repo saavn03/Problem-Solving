@@ -3,8 +3,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-#define ll long long
+#define TC int T; cin>>T; while(T--)
+#define ll long long int 
 #define F  First
 #define S second
 #define PI 3.1415926535897932384626
@@ -23,12 +23,6 @@ typedef vector<pl>		vpl;
 typedef vector<vi>		vvi;
 typedef vector<vl>		vvl;
 
-/*mt19937_64 rang(chrono::high_resolution_clock::now().time_since_epoch().count());
-int rng(int lim) {
-	uniform_int_distribution<int> uid(0, lim - 1);
-	return uid(rang);
-}
-*/
 
 void solve(unsigned long long int n) {
 
@@ -42,36 +36,10 @@ void solve(unsigned long long int n) {
 
 int main() {
 	ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-	//srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-	/*
-	Int T;
-	cin >> T;
-	while (T--) {
-
-	}
-	*/
+	TC{
 	int N;
 	cin >> N;
 	solve(N);
 	return 0;
-
-	// String Input
-/*
-	string S;
-	getline(cin, S);
-	solve(s);
-
-	// Array Input
-	 int T;
-	 cin>>T;
-	 while(T--){
-	 int n;
-	 cin>>n;
-	 int a[n],i;
-	 Fo(i,n){
-	 cin>>a[i];
-	 }
-	cout<<solve()<<endl;
-	return 0;
+	}
 }
-*/
